@@ -1,0 +1,2277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinkit Clone</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <!-- Desktop Navbar -->
+    <nav class="navbar bg-white border-bottom py-0 d-none d-lg-block">
+        <div class="container-fluid px-0">
+
+            <div class="row w-100 g-0 align-items-center">
+
+                <!-- Logo -->
+                <div class="col-auto border-end px-3 py-3">
+                    <a href="#" class="text-decoration-none">
+                        <span class="fw-bold display-5 text-warning">blink</span><span
+                            class="fw-bold display-5 text-success">it</span>
+                    </a>
+                </div>
+
+                <!-- Delivery Info -->
+                <div class="col-auto px-4">
+                    <h5 class="fw-bold mb-0">
+                        Delivery in 9 minutes
+                    </h5>
+
+                    <small>
+                        E36, Bal Nagar, New Khandelwa...
+                        <i class="bi bi-caret-down-fill"></i>
+                    </small>
+                </div>
+
+                <!-- Search -->
+                <div class="col px-4">
+                    <div class="d-flex align-items-center bg-light border rounded-3 px-3 py-3">
+
+                        <i class="bi bi-search fs-4 me-3"></i>
+
+                        <input type="text" class="form-control border-0 bg-transparent shadow-none p-0"
+                            placeholder='Search "chocolate"'>
+                    </div>
+                </div>
+
+                <!-- Login -->
+                <div class="col-auto px-4">
+                    <a href="#" class="text-decoration-none text-dark fs-4">
+                        Login
+                    </a>
+                </div>
+
+                <!-- Cart -->
+                <div class="col-auto pe-4">
+                    <button class="btn btn-success d-flex align-items-center px-3 py-2">
+
+                        <i class="bi bi-cart3 fs-3 me-3"></i>
+
+                        <div class="text-start">
+                            <div class="fw-bold lh-1">4 items</div>
+                            <div class="fw-bold lh-1 mt-1">₹179</div>
+                        </div>
+
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mobile Navbar -->
+    <nav class="border-bottom bg-white p-2 d-lg-none">
+
+        <div class="d-flex justify-content-between align-items-start">
+
+            <div>
+                <div class="fw-bold">
+                    Delivery in 9 minutes
+                </div>
+
+                <small>
+                    E36, Bal Nagar, New Khandelwa...
+                    <i class="bi bi-caret-down-fill"></i>
+                </small>
+            </div>
+
+            <i class="bi bi-person-circle fs-4"></i>
+
+        </div>
+
+        <div class="mt-2">
+            <div class="d-flex align-items-center bg-light border rounded px-3 py-2">
+
+                <i class="bi bi-search me-2"></i>
+
+                <input type="text" class="form-control border-0 bg-transparent shadow-none p-0"
+                    placeholder='Search "milk"'>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Main banner -->
+    <section class="container my-4">
+        <img src="./images/banner.jpg" alt="Daily Essentials Banner" class="img-fluid rounded-4 w-100">
+    </section>
+
+
+    <!-- Cards images -->
+
+    <section class="container mb-4">
+        <div class="row g-3">
+
+            <div class="col-12 col-md-4">
+                <img src="./images/card1.avif" alt="Pharmacy" class="img-fluid rounded-4 w-100">
+            </div>
+
+            <div class="col-12 col-md-4">
+                <img src="./images/card2.avif" alt="Pet Care" class="img-fluid rounded-4 w-100">
+            </div>
+
+            <div class="col-12 col-md-4">
+                <img src="./images/card3.avif" alt="Baby Care" class="img-fluid rounded-4 w-100">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- More card images -->
+
+    <section class="container-fluid px-3 mb-5">
+
+        <div class="row text-center g-2">
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/1.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/2.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/3.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/4.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/5.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/6.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/7.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/8.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/9.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/10.avif" class="img-fluid" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid px-3 mb-5">
+
+        <div class="row text-center g-2">
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/1.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/2.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/3.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/4.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/5.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/6.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/7.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/8.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/9.avif" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6 col-md-3 col-lg">
+                <img src="./images/10.avif" class="img-fluid" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Dairy, Bread & Egg -->
+
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0">Dairy, Bread & Eggs</h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Dairy-Bread-Eggs/1.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Saras Toned Milk
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Dairy-Bread-Eggs/2.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Saras Cup Curd
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Dairy-Bread-Eggs/3.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Amul Taaza Toned Milk
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Dairy-Bread-Eggs/4.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Amul Masti Pouch Curd
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Dairy-Bread-Eggs/5.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Britannia Sandwich White Bread
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Dairy-Bread-Eggs/6.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Saras Toned Milk
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Snacks & Munchies -->
+
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0">
+                Snacks & Munchies
+
+            </h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Snacks-Munchies/13.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Red Rock Deli Baked Chips (Greek Salad) 40% Less Fat Snacks
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Snacks-Munchies/14.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Beanly Choco Hazelnut Spread with Breadsticks
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Snacks-Munchies/15.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Protein Chef Baked Coated Peanuts (Masala Roasted Healthy Snacks)
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Snacks-Munchies/16.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Red Rock Deli Kettle Chips (Basil Thai) No Palm Oil Snacks
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Snacks-Munchies/17.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Too Yumm Cheese Balls Puffs (No Palm Oil)
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Snacks-Munchies/18.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Beanly Dark Chocolate Spread with Breadsticks
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!--  Rolling paper & tobacco -->
+
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0"> Rolling paper & tobacco</h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Rolling-paper-tobacco/7.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Ultimate Rolling Paper with Filter Tips & Crushing Tray (King Size, Unbleached) - Mozo
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Rolling-paper-tobacco/8.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Ultimate Rolling Paper with Filter Tips & Crushing Tray (King Size, Bleached) - Mozo
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Rolling-paper-tobacco/9.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            GO DESi Meetha Paan Desi Mints
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Rolling-paper-tobacco/10.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Dollar Pre-rolled Rolling Paper - Bongchie
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Rolling-paper-tobacco/11.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Pyramid Black Pre Rolled Cones - LIT
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Rolling-paper-tobacco/12.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold">
+                            Thins Pre-Rolled Rolling Paper - LIT
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Hookah -->
+
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0">Hookah</h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Hookah/1.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Premium Magic Coal By Stash Pro
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Hookah/2.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Coconut Hookah Coal by Bongchie
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Hookah/3.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Flat Coconut Hookah Coal Cubes by Stash Pro
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Hookah/4.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Pre-Cut Hookah Foil by Cocoyaya
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Hookah/5.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Flat Coconut Hookah Coal by Bongchie
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Hookah/6.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Mouth Filter Tips for Filters by Afzal
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Mouth fresheners -->
+
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0">Mouth fresheners</h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Mouth-fresheners/1.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            GO DESi Popz Tangy Imli Lollipop Candy
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Mouth-fresheners/2.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            GO DESi Meetha Paan Desi Mints
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Mouth-fresheners/3.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            GO DESi Real Aam & Strawberry Lollipop Candy with Free Toy
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Mouth-fresheners/4.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Perfora Mouth Spray - Instant Fresh Breath (UM)
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Mouth-fresheners/5.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            GO DESi Popz Assorted Lollipop Candy
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Mouth-fresheners/6.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Too Yumm Cheese Balls Puffs (No Palm Oil)
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Cold Drinks & Juices -->
+
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0">Cold Drinks & Juices</h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Cold-Drinks-Juices/1.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Saras Unsalted Buttermilk
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Cold-Drinks-Juices/2.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Amul Unsalted Buttermilk
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Cold-Drinks-Juices/3.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Coca-Cola Soft Drink
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Cold-Drinks-Juices/4.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Maaza Mango Drink 600 ml
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Cold-Drinks-Juices/5.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Sprite Lime Flavored Soft Drink
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Cold-Drinks-Juices/6.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Amul Probiotic Tadka Salted Buttermilk
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Candies & Gums -->
+    <section class="container mb-5">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold mb-0">Candies & Gums</h3>
+
+            <a href="#" class="text-success text-decoration-none fw-semibold">
+                see all
+            </a>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Candies-Gums/1.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Chupa Chups Sour Bites Mixed Fruit Sour Candy
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Candies-Gums/2.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Parle Melody Bigger Chocolaty Toffee
+
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Candies-Gums/3.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Happydent Wave Sugarfree Mint Chewing Gum 18 Pcs
+
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Candies-Gums/4.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Parle Kismi Assorted Toffee
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Candies-Gums/5.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Parle Melody Toffee
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col">
+
+                <div class="card h-100">
+
+                    <img src="./images/seeAll/Candies-Gums/6.avif" class="card-img-top p-3" alt="Milk">
+
+                    <div class="card-body">
+
+                        <div class="small fw-semibold mb-2">
+                            ⏱ 29 MINS
+                        </div>
+
+                        <h6 class="fw-semibold product-title">
+                            Pulse Kachcha Aam / Mango Candy
+
+
+
+                        </h6>
+
+                        <p class="text-muted mb-4">
+                            500 ml
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="fw-bold">
+                                ₹28
+                            </span>
+
+                            <button class="btn btn-outline-success fw-bold px-4">
+                                ADD
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Footer----------------------------------------------------->
+
+    <footer class="container-fluid bg-light mt-5 pt-5">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Useful Links -->
+                <div class="col-lg-4 mb-4">
+
+                    <h3 class="fw-bold mb-4">Useful Links</h3>
+
+                    <div class="row">
+
+                        <div class="col-4">
+                            <p>Blog</p>
+                            <p>Privacy</p>
+                            <p>Terms</p>
+                            <p>FAQs</p>
+                            <p>Security</p>
+                            <p>Contact</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p>Partner</p>
+                            <p>Franchise</p>
+                            <p>Seller</p>
+                            <p>Warehouse</p>
+                            <p>Deliver</p>
+                            <p>Resources</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p>Recipes</p>
+                            <p>Bistro</p>
+                            <p>District</p>
+                            <p>Blinkit Ambulance</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Categories -->
+                <div class="col-lg-8">
+
+                    <div class="d-flex align-items-center mb-4">
+                        <h3 class="fw-bold mb-0 me-3">Categories</h3>
+
+                        <a href="#" class="text-success text-decoration-none">
+                            see all
+                        </a>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <p>Vegetables & Fruits</p>
+                            <p>Cold Drinks & Juices</p>
+                            <p>Bakery & Biscuits</p>
+                            <p>Dry Fruits, Masala & Oil</p>
+                            <p>Paan Corner</p>
+                            <p>Pharma & Wellness</p>
+                            <p>Personal Care</p>
+                            <p>Kitchen & Dining</p>
+                            <p>Stationery Needs</p>
+                            <p>Print Store</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <p>Dairy & Breakfast</p>
+                            <p>Instant & Frozen Food</p>
+                            <p>Sweet Tooth</p>
+                            <p>Sauces & Spreads</p>
+                            <p>Organic & Premium</p>
+                            <p>Cleaning Essentials</p>
+                            <p>Pet Care</p>
+                            <p>Fashion & Accessories</p>
+                            <p>Books</p>
+                            <p>E-Gift Cards</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <p>Munchies</p>
+                            <p>Tea, Coffee & Milk Drinks</p>
+                            <p>Atta, Rice & Dal</p>
+                            <p>Chicken, Meat & Fish</p>
+                            <p>Baby Care</p>
+                            <p>Home Furnishing & Decor</p>
+                            <p>Beauty & Cosmetics</p>
+                            <p>Electronics & Electricals</p>
+                            <p>Toys & Games</p>
+                            <p>Rakhi Gifts</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+
+            <div class="border-top mt-4 py-4">
+
+                <div class="row align-items-center">
+
+                    <!-- Copyright -->
+                    <div class="col-lg-4 text-center text-lg-start mb-3 mb-lg-0">
+                        © Blink Commerce Private Limited, 2016-2026
+                    </div>
+
+                    <!-- Download App + Social Icons Together -->
+                    <div class="col-lg-8">
+
+                        <div
+                            class="d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center gap-4">
+
+                            <span class="fw-bold fs-5">
+                                Download App
+                            </span>
+
+                            <img src="./images/seeAll/8ed033800ea38f24c4f0.webp" alt="" height="40">
+
+                            <img src="./images/seeAll/d61019073b700ca49d22.webp" alt="" height="40">
+
+                            <i class="bi bi-facebook fs-3"></i>
+                            <i class="bi bi-twitter-x fs-3"></i>
+                            <i class="bi bi-instagram fs-3"></i>
+                            <i class="bi bi-linkedin fs-3"></i>
+                            <i class="bi bi-threads fs-3"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
